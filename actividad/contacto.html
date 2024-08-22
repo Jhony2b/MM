@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ba5050;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #627d8c;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.866);
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    
+
+        
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input,
+        textarea {
+            width: 90%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        label{
+            font-family: Arial, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="sobre_mi.html">Sobre Mí</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <h2>Ponte en Contacto Conmigo</h2>
+        <p>Si tienes alguna pregunta, comentario, o simplemente quieres saludar, no dudes en enviarme un mensaje a través del formulario a continuación.</p>
+
+        <form action="#" method="post">
+            <label for="nombres"><strong>Nombres:</strong></label>
+            
+            <input type="text" id="nombre" name="nombre" placeholder="Nombres" required>
+
+            <label for="email"><strong>Correo Electrónico:</strong></label>
+            <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+
+            <label for="mensaje"><strong>Mensaje:</strong></label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; JDCT.</p>
+    </footer>
+</body>
+
+</html>
